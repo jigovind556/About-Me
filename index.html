@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Govind Ji - Portfolio Website" />
+    <meta
+      name="keywords"
+      content="portfolio, web development, projects, skills, govind ji,nit kurukshetra student"
+    />
+    <meta name="author" content="Govind Ji" />
     <title>Govind Ji - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
+        <img src="myphoto.jpg" id="logoImage" alt="Govind Ji image" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="resume.pdf" download>Download Resume</a></li>
         </ul>
       </nav>
     </header>
@@ -36,12 +46,14 @@
           <li>Programming Languages: C, C++, Java, Python</li>
           <li>Web Development: HTML, CSS, JavaScript, React, Node.js</li>
           <li>Mobile Development: Flutter</li>
-          <li>
-            Backend Development: Database management, server-side operations,
-            RESTful APIs
-          </li>
+          <li>Backend Development: MySQL, Firebase, MongoDB</li>
+          <li>Database Management</li>
+          <li>Object-Oriented Programming (OOP)</li>
           <li>Problem-solving and Analytical Thinking</li>
-          <li>Teamwork and Collaboration</li>
+          <li>Version Control (Git)</li>
+          <li>Strong Communication and Collaboration Skills</li>
+          <li>Teamwork and Project Management</li>
+          <li>Continuous Integration and Deployment (CI/CD)</li>
         </ul>
       </div>
     </section>
@@ -49,18 +61,57 @@
     <section id="projects">
       <div class="container">
         <h2>Projects</h2>
-        <h3>Matrimony App (FreeRishteywala)</h3>
+        <h3>
+          <a
+            href="https://freerishteywala.com/"
+            target="_blank"
+            class="projectLink"
+          >
+            Matrimony App (FreeRishteywala)</a
+          >
+        </h3>
         <p>
           Developed a Matrimony application using Flutter as part of a 4-member
-          team. Implemented personalized matchmaking algorithms, in-app
-          chatting, and audio/video calling features.
+          team. Implemented personalized matchmaking algorithms to provide
+          highly accurate match recommendations. Integrated in-app chatting
+          feature for seamless communication between users. Incorporated audio
+          and video calling capabilities for real-time conversations and better
+          interaction. Worked on backend development tasks, including database
+          management and server-side operations.
         </p>
-        <h3>Automate Project</h3>
+        <h3>
+          <a href="#" target="_blank" class="projectLink">Automate Project</a>
+        </h3>
         <p>
-          Developed a web application to address high fares charged by
-          auto-rickshaw drivers. Enabled ride-sharing groups with chat
-          functionality, travel history tracking, and fare splitting features.
+          Developed a web application to address the issue of high fares charged
+          by auto-rickshaw drivers. Implemented ride-sharing groups feature
+          where users can form groups of 5 people for cost-effective travel.
+          Provided a chat facility within the application for easy communication
+          among group members. Developed functionality to track travel history
+          and generate travel reports. Integrated a fare splitting feature to
+          calculate and distribute the fare among the group members.
         </p>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>NIT Kurukshetra | 2021 - 2025</h3>
+          <p class="education-details">B.Tech (Information Technology)</p>
+          <p class="education-description">CGPA: 8.2</p>
+        </div>
+        <div class="education-item">
+          <h3>Gurukul Kurukshetra | 2014-2025</h3>
+          <p class="education-details">XII (CBSE) | 2021</p>
+          <p class="education-description">Percentage: 96.6%</p>
+        </div>
+        <div class="education-item">
+          <!-- <h3></h3> -->
+          <p class="education-details">X (CBSE)</p>
+          <p class="education-description">Percentage: 96.2%</p>
+        </div>
       </div>
     </section>
 
@@ -71,8 +122,11 @@
           Feel free to reach out to me for any inquiries or collaboration
           opportunities.
         </p>
-        <p>Email: jigovind556@gmail.com</p>
-        <!-- <p>Phone: [Your Phone Number]</p> -->
+        <p>
+          Email:
+          <a href="mailto:jigovind556@gmail.com">jigovind556@gmail.com</a>
+        </p>
+        <!-- <p>Phone: </p> -->
       </div>
     </section>
 
@@ -130,4 +184,3 @@
     </footer>
   </body>
 </html>
-

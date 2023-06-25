@@ -23,11 +23,23 @@
     background-color: #333;
     padding: 20px;
   }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
   
+  #logoImage{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+  }
   nav ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
   }
   
   nav ul li {
@@ -60,15 +72,63 @@
     margin-bottom: 20px;
   }
   
+
   /* Projects Section Styles */
   #projects h3 {
     margin-top: 20px;
   }
   
+  .projectLink{
+    text-decoration: none;
+    color: #333;
+  } 
   /* Contact Section Styles */
   #contact p {
     margin-bottom: 10px;
   }
+
+  /* Education Section Styles */
+#education .education-item {
+    margin-bottom: 40px;
+  }
+  
+  #education h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .education-details {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .education-description {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Responsive Styles for Education Section */
+  @media (max-width: 768px) {
+    #education .education-item {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #education h3 {
+      font-size: 20px;
+    }
+  
+    .education-details {
+      font-size: 16px;
+    }
+  
+    .education-description {
+      font-size: 14px;
+    }
+  }
+  
   
   /* Footer Styles */
   footer {
