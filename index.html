@@ -11,8 +11,23 @@
     <meta name="author" content="Govind Ji" />
     <title>Govind Ji - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <script>
+      // Function to check screen width and redirect if it's less than 600px
+      function checkScreenWidthAndRedirect() {
+        if (window.innerWidth < 600) {
+          window.location.href = 'https://jigovind556.github.io/My-Portfolio/'; // Replace with the URL you want to redirect to
+        }
+      }
+  
+      // Call the function when the page loads
+      window.addEventListener('load', checkScreenWidthAndRedirect);
+  
+      // Call the function on window resize to handle changes in screen width
+      window.addEventListener('resize', checkScreenWidthAndRedirect);
+    </script>
   </head>
   <body>
+
     <header>
       <nav class="navbar">
         <img src="myphoto.jpg" id="logoImage" alt="Govind Ji image" />
